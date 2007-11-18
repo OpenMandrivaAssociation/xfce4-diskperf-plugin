@@ -6,8 +6,8 @@ License:	BSD
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-diskperf-plugin
 Source0:	http://goodies.xfce.org/releases/xfce4-diskperf-plugin/%{name}-%{version}.tar.bz2
 Group:		Graphical desktop/Xfce
-Requires:	xfce-panel >= 4.3.0
-BuildRequires:	xfce-panel-devel >= 4.3.0
+Requires:	xfce4-panel >= 4.4.2
+BuildRequires:	xfce4-panel-devel >= 4.4.2
 BuildRequires:	perl(XML::Parser)
 Obsoletes:	xfce-diskperf-plugin
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
@@ -34,6 +34,6 @@ rm -rf %{buildroot}
 
 %files -f %{name}.lang
 %defattr(-,root,root)
-%doc README ChangeLog COPYING AUTHORS
+%doc README ChangeLog AUTHORS
 %{_libdir}/xfce4/panel-plugins/*
 %{_datadir}/xfce4/panel-plugins/*
