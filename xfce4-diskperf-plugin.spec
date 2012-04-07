@@ -11,7 +11,7 @@ Group:		Graphical desktop/Xfce
 Requires:	xfce4-panel >= 4.9.0
 BuildRequires:	xfce4-panel-devel >= 4.9.0
 BuildRequires:	perl(XML::Parser)
-BuildRequires:	libxfcegui4-devel >= 4.9.0-3
+BuildRequires:	libxfce4ui-devel >= 4.9.1
 Obsoletes:	xfce-diskperf-plugin
 
 %description
