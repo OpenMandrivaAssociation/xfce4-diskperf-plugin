@@ -27,9 +27,11 @@ Disk performance panel plugin for the Xfce Desktop Environment.
 %install
 %makeinstall_std
 
+find %{buildroot} -name "*.la" -exec rm -rf {} \;
+
 %find_lang %{name} %{name}.lang
 
 %files -f %{name}.lang
 %doc README ChangeLog AUTHORS
-%{_libdir}/xfce4/panel-plugins/*
+%{_libdir}/xfce4/panel/plugins/libdiskperf.so
 %{_datadir}/xfce4/panel-plugins/*
