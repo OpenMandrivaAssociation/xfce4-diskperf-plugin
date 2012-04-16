@@ -34,4 +34,4 @@ find %{buildroot} -name "*.la" -exec rm -rf {} \;
 %files -f %{name}.lang
 %doc README ChangeLog AUTHORS
 %{_libdir}/xfce4/panel/plugins/libdiskperf.so
-%{_datadir}/xfce4/panel-plugins/*
+%{_datadir}/xfce4/panel/plugins/diskperf.desktop
