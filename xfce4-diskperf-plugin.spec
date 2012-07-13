@@ -2,7 +2,7 @@
 
 Summary:	Disk performance panel plugin for Xfce
 Name:		xfce4-diskperf-plugin
-Version:	2.5.1
+Version:	2.5.4
 Release:	1
 License:	BSD
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-diskperf-plugin
@@ -29,7 +29,7 @@ Disk performance panel plugin for the Xfce Desktop Environment.
 
 find %{buildroot} -name "*.la" -exec rm -rf {} \;
 
-%find_lang %{name} %{name}.lang
+%find_lang %{name}
 
 %files -f %{name}.lang
 %doc README ChangeLog AUTHORS
