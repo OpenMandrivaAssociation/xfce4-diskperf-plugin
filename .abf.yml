@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   xfce4-diskperf-plugin-2.5.5.tar.bz2: 67c5d49f01ab21acae2ec4e4474d8f29f2ac6191
+sources:
+  xfce4-diskperf-plugin-2.6.1.tar.bz2: 922bc166af41678b57aaa491bf6bdbf1b66d38ad
