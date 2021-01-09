@@ -3,7 +3,7 @@
 
 Summary:	Disk performance panel plugin for Xfce
 Name:		xfce4-diskperf-plugin
-Version:	2.6.2
+Version:	2.6.3
 Release:	1
 License:	BSD
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-diskperf-plugin
