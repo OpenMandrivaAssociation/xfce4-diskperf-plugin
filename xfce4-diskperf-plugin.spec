@@ -6,7 +6,7 @@ Name:		xfce4-diskperf-plugin
 Version:	2.7.0
 Release:	2
 License:	BSD
-URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-diskperf-plugin
+URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-diskperf-plugin
 Source0:	http://archive.xfce.org/src/panel-plugins/xfce4-diskperf-plugin/%{url_ver}/%{name}-%{version}.tar.bz2
 Group:		Graphical desktop/Xfce
 Requires:	xfce4-panel >= 4.9.0
